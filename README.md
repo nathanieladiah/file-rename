@@ -80,3 +80,18 @@ Just use `Season 01`
 
 [ ] Use the filenames to search imdb or tmdb to get show info
 
+
+### Usage
+
+* Enter the current directory and the directory where the movie / tv show should be stored
+
+* Enter whether it's a show or movie
+
+`python project.py current target -l (library) [movie, show]`
+
+Just supply the path to the library and the type of library
+
+### Pseudocode
+
+* Get user to enter the path to the movie/tv show library
+* Get a list of all the directories and show user the ones that aren't formatted correctly
